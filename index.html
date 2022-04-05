@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="screen">
+        <div class="screen__top-line">
+          <span id="left-operand"></span>
+          <span id="operation"></span>
+        </div>
+        <div id="current" class="screen__bottom-line"></div>
+      </div>
+      <div id="buttons" class="buttons">
+        <button
+          data-value="AC"
+          style="grid-column-start: 1; grid-column-end: 3"
+          class="button"
+        >
+          AC
+        </button>
+        <button data-value="DEL" class="button">DEL</button>
+        <button data-value="/" class="button">/</button>
+        <button data-value="1" class="button">1</button>
+        <button data-value="2" class="button">2</button>
+        <button data-value="3" class="button">3</button>
+        <button data-value="*" class="button">*</button>
+        <button data-value="4" class="button">4</button>
+        <button data-value="5" class="button">5</button>
+        <button data-value="6" class="button">6</button>
+        <button data-value="+" class="button">+</button>
+        <button data-value="7" class="button">7</button>
+        <button data-value="8" class="button">8</button>
+        <button data-value="9" class="button">9</button>
+        <button data-value="-" class="button">-</button>
+        <button data-value="." class="button">.</button>
+        <button data-value="0" class="button">0</button>
+        <button
+          data-value="="
+          style="grid-column-start: 3; grid-column-end: 5"
+          class="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
